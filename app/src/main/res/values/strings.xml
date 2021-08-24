@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">SafeArgsWithNavigation</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Safe-Args-With-Nav-Component</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="choose_your_avatar">CHOOSE YOUR AVATAR</string>
+    <string name="character_name">Character name</string>
+    <string name="character_age">Character age</string>
+    <string name="next">Next</string>
+
+
+    <string name="software_development">Software Development</string>
+    <string name="data_management">Data Management</string>
+    <string name="computer_security">Computer Security</string>
+    <string name="business_process_management">Business Process Management</string>
+    <string name="your_job">Your Occupation</string>
+    <string name="join">Join</string>
+    <string name="character_information">Character Information</string>
+    <string name="your_character_name">Your Character Name:</string>
+    <string name="your_character_age">Your Character Age:</string>
+    <string name="character_occupation">Character Occupation:</string>
+    <string name="room_number">Room Number:</string>
+    <string name="confirm">Confirm</string>
+
 </resources>
