@@ -23,5 +23,10 @@
         <argument
             android:name="room"
             app:argType="integer" />
+        <argument
+            android:name="character"
+            app:argType="com.cevlikalprn.safeargswithnavigation.Character"
+            app:nullable="true"
+            android:defaultValue="@null" />
     </fragment>
 </navigation>
