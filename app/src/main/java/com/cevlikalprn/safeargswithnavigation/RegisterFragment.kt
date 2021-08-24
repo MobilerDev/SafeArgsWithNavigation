@@ -26,13 +26,15 @@ class RegisterFragment : Fragment(), View.OnClickListener{
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        registerBinding.btnNext.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView1.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView2.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView3.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView4.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView5.setOnClickListener(this)
-        registerBinding.includeAvatar.imageView6.setOnClickListener(this)
+        registerBinding.apply {
+            btnNext.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView1.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView2.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView3.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView4.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView5.setOnClickListener(this@RegisterFragment)
+            includeAvatar.imageView6.setOnClickListener(this@RegisterFragment)
+        }
     }
 
 

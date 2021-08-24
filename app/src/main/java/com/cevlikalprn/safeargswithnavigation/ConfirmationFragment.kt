@@ -44,9 +44,11 @@ class ConfirmationFragment : Fragment() {
     }
 
     private fun showCharacterInformation(character: Character){
-        confirmationBinding.imgProfile.setImageResource(character.characterImage)
-        confirmationBinding.txtCharacterName.text = character.characterName
-        confirmationBinding.txtCharacterAge.text = character.characterAge.toString()
+        confirmationBinding.apply {
+            imgProfile.setImageResource(character.characterImage)
+            txtCharacterName.text = character.characterName
+            txtCharacterAge.text = character.characterAge.toString()
+        }
     }
     private fun showRoomNumber(number: Int){
         confirmationBinding.txtRoomNumber.text = number.toString()
