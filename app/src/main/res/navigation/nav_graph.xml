@@ -19,11 +19,7 @@
         android:name="com.cevlikalprn.safeargswithnavigation.ConfirmationFragment"
         android:label="fragment_confirmation"
         tools:layout="@layout/fragment_confirmation" >
-        <argument
-            android:name="character"
-            app:argType="com.cevlikalprn.safe_args_with_nav_component.Character"
-            app:nullable="true"
-            android:defaultValue="@null" />
+
         <argument
             android:name="room"
             app:argType="integer" />
